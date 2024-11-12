@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-items > ul > li {
+  padding: 20px;
+  font-size: 24px;
+}
+.logo {
+  width: 100px;
+}
+.res-card {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  margin: 10px;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search {
+  padding: 20px;
+}
+.res-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card-img {
+  width: 100%;
+}
+.cuisines {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(56, 55, 55);
+}
