@@ -35,4 +35,7 @@ Good to know ==> if u use useState on a small Btn and change its name from login
 
 Good to know ===> in useState it a const varible right, how can i be updated its a const varible right ? ======> the ans is when u update the useState variable React will rerender that component again but this time the value of the old useState varible change to the new one beacuse it will set the const variable again means that old one is differnt then the new one.................but is update everthing in that componet again ,, ract is smart it uses DIFF ALGORITHM and finds which is newly added or updated and only updates that ......React is keeping track of everything
 
-////**\*\*** Code Slow Always and understand each and every line of code u r writing **********\***********//////////////////
+////**\*\*** Code Slow Always and understand each and every line of code u r writing \***\*\*\*\*\***\*\***\*\*\*\*\***//////////////////
+
+**********\*\*\***********/////TAsk given ===>
+so if u keep on scrolling on swiggy it dosent stop new resturants keeps on coming because there is an Api call made POST req and bring the new data add it appends that data and also implemnt lazy loading feature
