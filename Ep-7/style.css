@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-items > ul > li {
+  padding: 20px;
+  font-size: 24px;
+}
+.logo {
+  width: 100px;
+}
+.res-card {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  margin: 10px;
+}
+.shimmer-container {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin: 10px;
+  width: 206px;
+  height: 304px;
+  background-color: rgba(128, 128, 128, 0.25);
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search {
+  padding: 20px;
+}
+.res-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card-img {
+  width: 100%;
+}
+.cuisines {
+  text-wrap: wrap;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(56, 55, 55);
+}
+.filter-btn {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+}
+.login {
+  padding: 0 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.search-box,
+.search-btn {
+  padding: 5px;
+  font-size: 18px;
+}
+.error-msg {
+  color: red;
+}
+.res-menu {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  margin: 10px;
+}
+.res-img {
+  width: 100%;
+  height: 100%;
+}
+.res-item-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-item-list > li {
+  border: 1px solid green;
+  padding: 2px;
+  margin: 2px;
+  font-size: 14px;
+}
+.res-name {
+  text-align: center;
+  font-size: 24px;
+}
+.res-menu-text {
+  font-size: 20px;
+  font-weight: normal;
+}
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+}
